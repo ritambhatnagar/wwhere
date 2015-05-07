@@ -1,0 +1,1 @@
+<?php include APPPATH . '/errors/error_404.php'; ?>

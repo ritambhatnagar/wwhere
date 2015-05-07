@@ -1,0 +1,10 @@
+# Notice: Crawling wWhere is prohibited unless you have written consent
+
+User-agent: *
+Disallow: /admin/
+Disallow: /similar_location
+Disallow: /similar_location?
+Disallow: /similar_location*
+Disallow: /public/
+Disallow: /application/
+Disallow: /system/

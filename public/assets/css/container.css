@@ -1,0 +1,9 @@
+#container {
+width: 500px;
+height: 300px;
+overflow: hidden;
+border: 3px double #000;
+white-space: nowrap;
+}
+
+#container img {display: inline-block; margin: 0 100px;}

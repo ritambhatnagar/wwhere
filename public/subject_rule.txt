@@ -1,0 +1,102 @@
+                     /\bc.{0,2}i.{0,2}a.{0,2}l.{0,2}i.{0,2}s\b/i
+                     Subject contains a gappy version of 'cialis'
+                     0.003
+                     /l.{0,2}e.{0,2}v.{0,2}i.{0,2}t.{0,2}r.{0,2}a/i
+                     Subject contains a gappy version of 'levitra'
+                     2.515
+                     /\bs.{0,1}o.{0,1}m.{0,1}a\b/i
+                     Subject contains a gappy version of 'soma'
+                     0
+                     /v.{0,2}a.{0,2}l.{0,2}i.{0,2}u.{0,2}m/i
+                     Subject contains a gappy version of 'valium'
+                     1.014
+                     /x.{0,2}a.{0,2}n.{0,2}a.{0,2}x/i
+                     Subject contains a gappy version of 'xanax'
+                     1.766
+                     /[s5][e3\xE8-\xEB]x[u\xB5\xF9-\xFC][a4\xE0-\xE6@][l!|1](?:[l!|1]y)?.{0,3}[e3\xE8-\xEB]xp[l!|1][i1!|l\xEC-\xEF]c[i1!|l\xEC-\xEF]t/i
+                     Subject indicates sexually-explicit content
+                     0.001
+                     /^Re: new\s?\d{0,3}$/i
+                     Subject is Re: new \d\d\d
+                     2.687
+                     /\bat no cost/i
+                     Subject says \"At No Cost\"
+                     1.561
+                     /CHEAP/
+                     Phrase: Cheap in Caps in Subject.
+                     0.001
+                     /\$\d\d\d?\.?\d?\d? bonus/i
+                     Subject talks about money bonus!
+                     2.673
+                     /ejaculat(?:[io01][o0i1]n|e)/i
+                     Phrase: ejaculation in subject.
+                     1.803
+                     / erection /i
+                     Phrase: erection in subject.
+                     2.643
+                     /(?:huge|tiny|small) (?:c[o0]ck|d[i1]ck|p[e3]n[1i]s)/i
+                     Phrase: Huge Cock
+                     0
+                     /(?!100%)\d[0-9oi][0-9oi]%/i
+                     Larger than 100% in subj.
+                     0.412
+                     / low rates/i
+                     Subject says low rates
+                     2.001
+                     /^New software uploaded by/
+                     Subj starts with New software uploaded
+                     1.79
+                     /^Re: news? [a-z]{1,5}$/
+                     Subject looks like Fharmacy spams.
+                     1.1
+                     /n[o0O] p[reRE][erER]scr[i1I]pt[i1I][o0O]n/i
+                     Subject almost says No prescription
+                     1.577
+                     /\b(?!(?:pharmacy|primacy))p[ph]{0,4}\S{1,3}r\S{0,2}m\S{0,3}c\S{0,2}y\b/i
+                     what could this word be?
+                     1.46
+                     /perscr[i1]pt[i1][o0]n/i
+                     Subject mis-spelled prescription
+                     0
+                     /PH[A-Za-z]{2,7}MA/
+                     Looks like Phramacy subject.
+                     3.896
+                     /ramrod/i
+                     Subject says Ramrod
+                     2.777
+                     /replica/i
+                     Subject says \"replica\"
+                     1.041
+                     /replica watch/i
+                     Subject says Replica watch
+                     2.502
+                     /re approved/i
+                     Phrase: re approved
+                     0
+                     /^Do you (?:dream|have|want|love|like|wanna)/i
+                     Subject starts with Do you dream,have,want,love, etc.
+                     3.097
+                     /^Lose /i
+                     Subject starts with Lose
+                     2.167
+                     /teen.{1,15}(?:pussy|sex|slut|ass|fuck|rape)/i
+                     Subject says something bad about teens
+                     2.549
+                     /(?:tip|good) \d\d\d?\d?/i
+                     Phrase: subject = tip ddd
+                     0.101
+                     /will help/
+                     Subject says will help
+                     3.296
+                     /with (?:\w+\s)?(?:small|short)/i
+                     Subject says With ... small
+                     0
+                     /^New software uploaded by/
+                     Subject starts with 'New software uploaded by'
+                     3.599
+                     /\bOnline Pharmaceutical/i
+                     Subject contains the phrase 'Online pharmaceutical'
+                     0.001
+                     /\b[a-zA-Z]+ [\#\s]{1,4}\d+[A-Z]+/
+                     Subject has spammy looking monetary reference
+                     0
